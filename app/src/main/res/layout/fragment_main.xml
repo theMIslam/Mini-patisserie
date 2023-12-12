@@ -6,60 +6,72 @@
     android:layout_height="match_parent"
     android:background="@color/background_color"
     android:orientation="vertical"
-    tools:context=".AuthorizationFragment">
+    tools:context=".MainFragment">
 
     <ImageView
-        android:id="@+id/iv_logo"
-        android:layout_width="160dp"
-        android:layout_height="160dp"
+        android:id="@+id/iv_salesman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="52dp"
-        android:src="@drawable/logo" />
+        android:layout_marginTop="48dp"
+        android:src="@drawable/salesman" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_enter_via_google"
+        android:id="@+id/btn_employee"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="28dp"
         android:backgroundTint="@color/button_color"
-        android:drawableLeft="@drawable/ic_google"
         android:fontFamily="@font/montserrat_regular"
         android:padding="20dp"
-        android:text="@string/enter_via_google"
-        android:textAlignment="center"
+        android:text="@string/list_of_workers"
+        android:textAlignment="textStart"
         android:textColor="@color/white"
         android:textSize="16sp"
         app:cornerRadius="20dp" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_continue_with_apple"
+        android:id="@+id/btn_pastry"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="@color/button_color"
-        android:drawableLeft="@drawable/ic_apple"
         android:fontFamily="@font/montserrat_regular"
         android:padding="20dp"
-        android:text="@string/continue_with_apple"
-        android:textAlignment="center"
+        android:text="@string/list_of_pastry"
+        android:textAlignment="textStart"
         android:textColor="@color/white"
         android:textSize="16sp"
         app:cornerRadius="20dp" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_continue_with_vk"
+        android:id="@+id/btn_product_stock"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="@color/button_color"
-        android:drawableLeft="@drawable/ic_vk"
         android:fontFamily="@font/montserrat_regular"
         android:padding="20dp"
-        android:text="@string/continue_with_vk"
-        android:textAlignment="center"
+        android:text="@string/product_stock"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:cornerRadius="20dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/button_color"
+        android:fontFamily="@font/montserrat_regular"
+        android:padding="20dp"
+        android:text="@string/about_us"
+        android:textAlignment="textStart"
         android:textColor="@color/white"
         android:textSize="16sp"
         app:cornerRadius="20dp" />

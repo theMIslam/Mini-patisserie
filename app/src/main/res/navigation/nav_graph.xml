@@ -25,5 +25,40 @@
         android:name="com.london.inai.OnBoardingFragment"
         android:label="fragment_on_boarding"
         tools:layout="@layout/fragment_on_boarding" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.london.inai.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/employeeFragment"
+        android:name="com.london.inai.EmployeeFragment"
+        android:label="fragment_employee"
+        tools:layout="@layout/fragment_employee" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.london.inai.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/pastryFragment"
+        android:name="com.london.inai.PastryFragment"
+        android:label="fragment_pastry"
+        tools:layout="@layout/fragment_pastry" />
+    <fragment
+        android:id="@+id/compositionFragment"
+        android:name="com.london.inai.CompositionFragment"
+        android:label="fragment_composition"
+        tools:layout="@layout/fragment_composition" />
+    <fragment
+        android:id="@+id/productStockFragment"
+        android:name="com.london.inai.ProductStockFragment"
+        android:label="fragment_product_stock"
+        tools:layout="@layout/fragment_product_stock" />
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.london.inai.AboutUsFragment"
+        android:label="fragment_about_us"
+        tools:layout="@layout/fragment_about_us" />
 
 </navigation>

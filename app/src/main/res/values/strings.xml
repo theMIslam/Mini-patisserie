@@ -12,4 +12,13 @@
     <string name="enter_via_google">Вход через Google</string>
     <string name="continue_with_apple">Продолжить с Apple</string>
     <string name="continue_with_vk">Продолжить с VK</string>
+    <string name="dear_">Дорогие гурманы и\nсладкоежки!</string>
+    <string name="begin">Начать</string>
+    <string name="list_of_workers">Список сотрудников</string>
+    <string name="list_of_pastry">Список изделий</string>
+    <string name="product_stock">Склад с продуктами</string>
+    <string name="about_us">О нас</string>
+    <string name="name">Ногоев Роман</string>
+    <string name="director">Директор</string>
+    <string name="instagram">Instagram</string>
 </resources>
