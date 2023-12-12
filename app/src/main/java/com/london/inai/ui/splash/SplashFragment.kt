@@ -1,4 +1,4 @@
-package com.london.inai
+package com.london.inai.ui.splash
 
 import android.os.Bundle
 import android.os.Handler
@@ -8,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.london.inai.R
 import com.london.inai.databinding.FragmentSplashBinding
 
 class SplashFragment : Fragment() {

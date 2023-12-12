@@ -1,11 +1,13 @@
-package com.london.inai
+package com.london.inai.ui.onboarding.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
+import com.london.inai.R
 import com.london.inai.databinding.ItemOnboardBinding
+import com.london.inai.ui.onboarding.model.OnBoarding
 
 class OnBoardingAdapter(private val onStartClick: () -> Unit) :
     Adapter<OnBoardingAdapter.OnBoardingViewHolder>() {

@@ -1,4 +1,4 @@
-package com.london.inai
+package com.london.inai.ui.product
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,18 +6,17 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.london.inai.databinding.FragmentCompositionBinding
+import com.london.inai.databinding.FragmentProductStockBinding
 
+class ProductStockFragment : Fragment() {
 
-class CompositionFragment : Fragment() {
-
-    private lateinit var binding: FragmentCompositionBinding
+    private lateinit var binding: FragmentProductStockBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentCompositionBinding.inflate(inflater, container, false)
+        binding = FragmentProductStockBinding.inflate(inflater, container, false)
         return binding.root
     }
 

@@ -1,4 +1,4 @@
-package com.london.inai
+package com.london.inai.ui.employee
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,7 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.london.inai.R
 import com.london.inai.databinding.FragmentEmployeeBinding
+import com.london.inai.ui.employee.adapter.EmployeeAdapter
+import com.london.inai.ui.employee.model.Employee
 
 class EmployeeFragment : Fragment() {
 

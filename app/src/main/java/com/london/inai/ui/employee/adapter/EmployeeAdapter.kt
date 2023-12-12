@@ -1,9 +1,10 @@
-package com.london.inai
+package com.london.inai.ui.employee.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
+import com.london.inai.ui.employee.model.Employee
 import com.london.inai.databinding.ItemEmployeeBinding
 
 class EmployeeAdapter(private val list: ArrayList<Employee>, private val onClick: () -> Unit) :

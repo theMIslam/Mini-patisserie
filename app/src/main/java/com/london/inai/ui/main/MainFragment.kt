@@ -1,4 +1,4 @@
-package com.london.inai
+package com.london.inai.ui.main
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.london.inai.R
 import com.london.inai.databinding.FragmentMainBinding
 
 class MainFragment : Fragment() {
