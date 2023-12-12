@@ -46,10 +46,9 @@ class AboutUsFragment : Fragment() {
 
             // intent telegram
             binding.btnTelegram.setOnClickListener {
-                val telegramNumber = "0708540691"
 
                 val telegramIntent = Intent(Intent.ACTION_VIEW)
-                telegramIntent.data = Uri.parse("https://t.me/$telegramNumber")
+                telegramIntent.data = Uri.parse("https://t.me/mktmwiest")
 
                 startActivity(telegramIntent)
             }
@@ -59,7 +58,7 @@ class AboutUsFragment : Fragment() {
                 val phoneNumber = "0708540691"
 
                 val whatsappIntent = Intent(Intent.ACTION_VIEW)
-                whatsappIntent.data = Uri.parse("https://wa.me/$phoneNumber")
+                whatsappIntent.data = Uri.parse("https://wa.me/+996708540691")
 
                 startActivity(whatsappIntent)
             }
